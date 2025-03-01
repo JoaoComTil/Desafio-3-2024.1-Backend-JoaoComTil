@@ -1,0 +1,62 @@
+/* Estilizar o body e colocar uma imagem de fundo */
+body {
+    background-image: url('https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222');
+    /* ou troque por uma imagem local */
+    background-color: #f0f8ff;
+    /* cor de fundo se a imagem for transparente */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centralizar conteúdo */
+.centralizando {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* fundo branco semi-transparente */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #ffcb05;
+    color: #3b4cca;
+    font-weight: bold;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3b4cca;
+    color: #ffcb05;
+}
+
+/* Estilo do nome do Pokémon */
+h1#pokemonNome {
+    font-family: 'Arial', sans-serif;
+    color: #ff5959;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Ajuste no sprite (imagem do Pokémon) */
+#pokemonImagem {
+    width: 150px;
+    height: 150px;
+    image-rendering: pixelated;
+    /* Fica retrô, estilo GameBoy */
+    margin-bottom: 15px;
+}
