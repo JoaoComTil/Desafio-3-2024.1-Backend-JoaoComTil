@@ -1,6 +1,6 @@
 # PokeAPI Explorer - Desafio Backend 2024.1
 
-Este é um pequeno projeto de servidor e cliente que consome a [PokeAPI](https://pokeapi.co/) para exibir informações sobre diferentes Pokémon. Feito como parte do desafio 3 do curso Backend 2024.1.
+Este é um pequeno projeto de servidor e cliente que consome a [PokeAPI](https://pokeapi.co/) para navegar a lista de Pokémon. Feito como parte do desafio 3 da jornada de backend.
 
 ---
 
