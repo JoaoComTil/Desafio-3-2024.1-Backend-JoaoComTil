@@ -1,3 +1,65 @@
+# PokeAPI Explorer - Desafio Backend 2024.1
+
+Este é um pequeno projeto de servidor e cliente que consome a [PokeAPI](https://pokeapi.co/) para exibir informações sobre diferentes Pokémon. Feito como parte do desafio 3 do curso Backend 2024.1.
+
+---
+
+## Como executar o projeto
+
+### Pré-requisitos
+
+- Ter o [Node.js](https://nodejs.org/) instalado.
+- Ter o [Git](https://git-scm.com/) instalado.
+- Ter um terminal de sua preferência
+
+---
+
+### Passo a passo para rodar localmente
+
+1. **Clone o repositório**
+
+   ```bash
+   git clone https://github.com/JoaoComTil/Desafio-3-2024.1-Backend-JoaoComTil.git
+
+2. **Entre na pasta do projeto**
+
+   ```bash
+   cd Desafio-3-2024.1-Backend-JoaoComTil
+
+3. **Instale as dependências**
+
+   ```bash
+   npm install
+   
+4. **Inicie o servidor (com nodemon)**
+
+   ```bash
+   npx nodemon app.js
+
+  ou, se preferir rodar com node diretamente:
+  
+  
+   ```bash
+    cd Desafio-3-2024.1-Backend-JoaoComTil
+   ```
+   node app.js
+
+5. **Abra no navegador**
+  Acesse: http://localhost:8081
+
+
+
+## 🛠️ Tecnologias utilizadas
+- Node.js
+- Express
+- HTML5
+- CSS3
+- JavaScript (Fetch API)
+- PokeAPI
+
+
+-----------------------
+
 # Aprendendo como utilizar um serviço de API
 
 # Desafio Pokedex utilizando pokeapi.co
